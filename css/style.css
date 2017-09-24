@@ -2,3 +2,13 @@
 body {
     margin-top: 30px;
 }
+
+.textalignment {
+    text-align: right;
+}
+
+@media (max-width: 992px) {
+    .textalignment {
+        text-align: left;
+    }
+}
